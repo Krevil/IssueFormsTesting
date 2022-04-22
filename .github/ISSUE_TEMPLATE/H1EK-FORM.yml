@@ -1,0 +1,64 @@
+body:
+- type: markdown
+  attributes:
+    value: "## Halo 1 Editing Kit Issue Form"
+- type: checkboxes
+  id: tool-types
+  attributes:
+    label: Which tools are affected by the issue?
+    description: You may select more than one.
+    options:
+      - label: guerilla
+      - label: sapien
+      - label: tag_test
+      - label: tool
+      - label: tool_fast
+  validations:
+    required: true
+- type: textarea
+  id: description
+  attributes:
+    label: Issue description
+    description: Describe the issue in detail
+  validations:
+    required: true
+- type: textarea
+  id: reproduction-steps
+  attributes:
+    label: Reproudction steps
+    description: Write how to reproduce the issue
+  validations:
+    required: true
+- type: dropdown
+  id: repro-success
+  attributes:
+    label: How often does the issue occur?
+    options:
+      - Once
+      - 25%
+      - 50%
+      - 75%
+      - 100%
+  validations:
+    required: true
+- type: textarea
+  id: impact
+  attributes:
+    label: Issue impact
+    description: How impactful is the issue?
+  validations:
+    required: true
+- type: textarea
+  id: comments
+  attributes:
+    label: Additional comments
+    description: Write any additional comments you have here (Optional)
+  validations:
+    required: false
+- type: textarea
+  id: media
+  attributes:
+    label: Media
+    description: If your issue has a visual portion, include media here (Optional)
+  validations:
+    required: false
