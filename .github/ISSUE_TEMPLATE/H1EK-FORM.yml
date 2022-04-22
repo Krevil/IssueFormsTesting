@@ -1,3 +1,5 @@
+name: Halo 1 Editing Kit Issue Form
+description: Create an issue for the Halo 1 Editing Kit.
 body:
 - type: markdown
   attributes:
