@@ -16,31 +16,25 @@ body:
       - H3ODSTEK
   validations:
     required: true
-- type: checkboxes
+- type: input
   id: tool-types
   attributes:
     label: Which tools are affected by the issue?
-    description: You may select more than one.
-    options:
-      - label: guerilla
-      - label: sapien
-      - label: tag_test
-      - label: tool
-      - label: tool_fast
+    description: Input each tool that the issue is affecting.
   validations:
     required: true
 - type: textarea
   id: description
   attributes:
     label: Issue description
-    description: Describe the issue in detail
+    description: Describe the issue in detail.
   validations:
     required: true
 - type: textarea
   id: reproduction-steps
   attributes:
     label: Reproduction steps
-    description: Write how to reproduce the issue
+    description: Write how to reproduce the issue.
   validations:
     required: true
 - type: dropdown
@@ -66,13 +60,13 @@ body:
   id: comments
   attributes:
     label: Additional comments
-    description: Write any additional comments you have here (Optional)
+    description: Write any additional comments you have here.
   validations:
     required: false
 - type: textarea
   id: media
   attributes:
     label: Media
-    description: If your issue has a visual portion, include media here (Optional)
+    description: If your issue has a visual portion, include media here.
   validations:
     required: false
