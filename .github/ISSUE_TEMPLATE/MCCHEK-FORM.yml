@@ -4,7 +4,7 @@ body:
 - type: markdown
   attributes:
     value: "## MCC Halo Editing Kit Issue Form"
-<!-- AUTO-LABEL:START -->
+#<!-- AUTO-LABEL:START -->
 - type: dropdown
   id: toolkit
   attributes:
@@ -30,7 +30,7 @@ body:
       - label: tool_fast
   validations:
     required: true
-<!-- AUTO-LABEL:END -->
+#<!-- AUTO-LABEL:END -->
 - type: textarea
   id: description
   attributes:
