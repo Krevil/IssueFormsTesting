@@ -10,3 +10,4 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           labels-not-allowed: '["crash","duplicate","feedback","bug","wontfix"]'
+          labels-synonyms: '{"tag_test":["tagtest","standalone"]}'
