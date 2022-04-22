@@ -10,10 +10,10 @@ body:
     label: "Which game's editing kit is affected by this issue?"
     description: If the issue affects more than one game, submit another form.
     options:
-      - label: H1EK
-      - label: H2EK
-      - label: H3EK
-      - label: H3ODSTEK
+      - H1EK
+      - H2EK
+      - H3EK
+      - H3ODSTEK
   validations:
     required: true
 - type: checkboxes
