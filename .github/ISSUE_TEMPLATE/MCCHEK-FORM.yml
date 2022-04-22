@@ -1,9 +1,21 @@
-name: Halo 1 Editing Kit Issue Form
-description: Create an issue for the Halo 1 Editing Kit.
+name: MCC Halo Editing Kit Issue Form
+description: Create a new issue for the the MCC Halo Editing Kit.
 body:
 - type: markdown
   attributes:
-    value: "## Halo 1 Editing Kit Issue Form"
+    value: "## MCC Halo Editing Kit Issue Form"
+- type: dropdown
+  id: toolkit
+  attributes:
+    label: "Which game's editing kit is affected by this issue?"
+    description: If the issue affects more than one game, submit another form.
+    options:
+      - label: H1EK
+      - label: H2EK
+      - label: H3EK
+      - label: H3ODSTEK
+  validations:
+    required: true
 - type: checkboxes
   id: tool-types
   attributes:
