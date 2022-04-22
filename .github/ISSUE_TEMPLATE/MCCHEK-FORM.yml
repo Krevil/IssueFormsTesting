@@ -7,7 +7,7 @@ body:
 - type: dropdown
   id: toolkit
   attributes:
-    label: "Which game's editing kit is affected by this issue?"
+    label: "Which game's editing kit is affected by the issue?"
     description: If the issue affects more than one game, submit another form.
     options:
       - H1EK
